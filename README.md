@@ -6,6 +6,8 @@
 
 1. Make sure you are running a paper/bukkit server
 2. Make sure to install ItemEdit & ItemTag Plugins
+![image](https://github.com/user-attachments/assets/d00fca1d-5c92-414b-a0fb-20b3ae9f82f3)
+
 Download the pack from the [Releases](https://github.com/yourusername/custom-armor-for-aternos/releases).
 2. Copy the code from "example.yml" and paste it manually in item edit .
 3. Use `/function customarmor:give_armor` to get the items.
