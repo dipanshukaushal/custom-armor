@@ -2,9 +2,11 @@
 
 🎮 This repository includes custom armor models and data packs that can be used by Aternos players without needing to upload server-side mods/plugins or resource pack.
 
-## 🔧 How to Use
+## 🔧 How to Use this ( you can skip to 0 if you already have a server )
 
-1. Download the pack from the [Releases](https://github.com/yourusername/custom-armor-for-aternos/releases).
+1. Make sure you are running a paper/bukkit server
+2. Make sure to install ItemEdit & ItemTag Plugins
+Download the pack from the [Releases](https://github.com/yourusername/custom-armor-for-aternos/releases).
 2. Copy the code from "example.yml" and paste it manually in item edit .
 3. Use `/function customarmor:give_armor` to get the items.
 
