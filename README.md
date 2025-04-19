@@ -5,13 +5,17 @@
 ## 🔧 How to Use
 
 1. Download the pack from the [Releases](https://github.com/yourusername/custom-armor-for-aternos/releases).
-2. Install it as a resource pack or data pack.
+2. Copy the code from "example.yml" and paste it manually in item edit .
 3. Use `/function customarmor:give_armor` to get the items.
 
 ## 📦 Contents
 
-- ⚙️ Data pack to give custom armor
+- ⚙️ Data pack Code for custom armor
 - 📃 Installation guide
+
+## 🤔 Upcoming Update?
+
+- I'm not actively working on this right now, but I might release weapons or items later ( once this blow up lol :p ), either in a separate repo or in one called aternos
 
 ## 💡 Tips
 
