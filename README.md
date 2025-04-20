@@ -1,4 +1,4 @@
-# Custom Armor for Aternos Players
+# Custom Armor for Aternos Players [ IN-PROGRESS ]
 
 🎮 This repository includes custom armor models and data packs that can be used by Aternos players without needing to upload server-side mods/plugins or resource pack.
 
