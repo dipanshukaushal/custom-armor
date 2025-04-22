@@ -8,7 +8,7 @@
 2. Make sure to install ItemEdit & ItemTag Plugins
 ![image](https://github.com/user-attachments/assets/d00fca1d-5c92-414b-a0fb-20b3ae9f82f3)
 4. Once installed, please restart your server and join in-game and check plugins by /plugins
-5. Now go to your server's hosting panel and open files
+5. Come to your server's hosting panel and open files
 6. Go to `Files > Plugins > Itemedits > config.yml`
 7. Copy the code mentioned in [Releases](example.txt) and paste it in [Releases](config.yml)
 8. Once pasted, save the file and restart the server or reload the plugins by typing `/ie reload`
