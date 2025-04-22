@@ -17,12 +17,13 @@ This Project is inspired by Hypixel's Skyblock Mode + more update will come soon
 
 ## 📦 Contents
 
-- ⚙️ Data pack Code for custom armor
 - 📃 Installation guide
+- ⚙️ Data pack Code for custom armor & weapons
 
 ## 🤔 Upcoming Update?
 
-- I'm not actively working on this right now, but I might release weapons or items later ( once this blow up lol :p ), either in a separate repo or in one called aternos
+- I'm not actively working on this right now, but I might release weapons or items later ( once this repo blow up lol :p )
+- As of now this project has alot of potential , either in a separate repo or in one called aternos
 
 ## 💡 Tips
 
