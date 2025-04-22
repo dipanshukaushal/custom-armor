@@ -23,12 +23,13 @@ This Project is inspired by Hypixel's Skyblock Mode + more update will come soon
 ## 🤔 Upcoming Update?
 
 - I'm not actively working on this right now, but I might release weapons or items later ( once this repo blow up lol :p )
-- As of now this project has alot of potential , either in a separate repo or in one called aternos
+- As of now this project has alot of potential
+- Aternos players can finally have something new apart from boring armor
 
-## 💡 Tips
+## 💡 Note
 
-- Use this with Minecraft versions [insert compatible versions].
-- Works with vanilla Aternos servers using data packs and resource packs.
+- This Plugin is compatible with Minecraft versions 1.8.x1.21.x
+- Works with vanilla Aternos servers using data packs and resource packs ( in future will release one ).
 
 ---
 
