@@ -2,7 +2,7 @@
 
 🎮 This repository includes custom armor models and data packs that can be used by Aternos players without needing to upload server-side mods/plugins or resource pack.
 
-## 🔧 How to Use this ( you can skip to 6 if you already have a server )
+## 🔧 How to Use this ( you can skip to 6 if you already have installed ItemEdit & Itemtag server )
 
 1. Make sure you are running a paper/bukkit server
 2. Make sure to install ItemEdit & ItemTag Plugins
