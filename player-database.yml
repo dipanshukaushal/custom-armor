@@ -1,0 +1,1459 @@
+d8ad60ca-b4ba-38e4-98d5-753919020b6b:
+  sm1:
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3700
+      type: BOW
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"text":"","extra":[{"text":"S","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"gray","bold":true},{"text":"k","italic":false,"color":"dark_gray","bold":true},{"text":"e","italic":false,"color":"gray","bold":true},{"text":"l","italic":false,"color":"dark_gray","bold":true},{"text":"e","italic":false,"color":"gray","bold":true},{"text":"t","italic":false,"color":"dark_gray","bold":true},{"text":"o","italic":false,"color":"gray","bold":true},{"text":"n
+          ","italic":false,"color":"dark_gray","bold":true},{"text":"L","italic":false,"color":"gray","bold":true},{"text":"o","italic":false,"color":"dark_gray","bold":true},{"text":"r","italic":false,"color":"gray","bold":true},{"text":"d
+          ","italic":false,"color":"dark_gray","bold":true},{"text":"B","italic":false,"color":"gray","bold":true},{"text":"o","italic":false,"color":"dark_gray","bold":true},{"text":"w","italic":false,"color":"gray","bold":true}]}'
+        lore:
+        - '""'
+        - '{"text":"","extra":[{"text":"Guardian''s Aim","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"blue","bold":false}]}'
+        - '{"text":"","extra":[{"text":"Receive ","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"gray","bold":false},{"text":"2.0x
+          ","italic":false,"color":"green"},{"text":"reduced knockback when firing
+          at enemies.","italic":false,"color":"gray"}]}'
+        - '""'
+        - '{"text":"","extra":[{"text":"Special Abiltiy","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"gold","bold":false}]}'
+        - '{"text":"","extra":[{"text":"Arrows are not consumed when using this bows.","italic":false,"color":"gray"}]}'
+        enchants:
+          ARROW_FIRE: 1
+          ARROW_INFINITE: 1
+          ARROW_DAMAGE: 5
+          ARROW_KNOCKBACK: 2
+          DURABILITY: 3
+        attribute-modifiers:
+          GENERIC_ATTACK_SPEED:
+          - ==: org.bukkit.attribute.AttributeModifier
+            amount: 1.0
+            name: GENERIC_ATTACK_SPEED
+            uuid: eee46b35-824c-4cde-972c-98db46c2c511
+            operation: 0
+          - ==: org.bukkit.attribute.AttributeModifier
+            amount: 2.0
+            name: GENERIC_ATTACK_SPEED
+            uuid: 6c34035b-d23a-4592-9f74-ebfc8ef21070
+            operation: 0
+          - ==: org.bukkit.attribute.AttributeModifier
+            amount: 5.0
+            name: GENERIC_ATTACK_SPEED
+            uuid: 9a56e731-07cc-4f4c-adbb-180247537099
+            operation: 0
+          GENERIC_KNOCKBACK_RESISTANCE:
+          - ==: org.bukkit.attribute.AttributeModifier
+            amount: 2.0
+            name: GENERIC_KNOCKBACK_RESISTANCE
+            uuid: 5217e693-79ea-4021-b7ca-22c7d54a3a94
+            operation: 0
+        ItemFlags:
+        - HIDE_ENCHANTS
+        - HIDE_ATTRIBUTES
+        - HIDE_UNBREAKABLE
+        - HIDE_DESTROYS
+        - HIDE_PLACED_ON
+        - HIDE_POTION_EFFECTS
+        - HIDE_DYE
+        - HIDE_ARMOR_TRIM
+        PublicBukkitValues: |-
+          {
+              "itemtag:effects_list": "FAST_DIGGING,0,false,true,true"
+          }
+  sm2:
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3700
+      type: SKELETON_SKULL
+      meta:
+        ==: ItemMeta
+        meta-type: SKULL
+        display-name: '{"text":"","extra":[{"text":"S","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"gray","bold":true},{"text":"k","italic":false,"color":"dark_gray","bold":true},{"text":"e","italic":false,"color":"gray","bold":true},{"text":"l","italic":false,"color":"dark_gray","bold":true},{"text":"e","italic":false,"color":"gray","bold":true},{"text":"t","italic":false,"color":"dark_gray","bold":true},{"text":"o","italic":false,"color":"gray","bold":true},{"text":"n
+          ","italic":false,"color":"dark_gray","bold":true},{"text":"L","italic":false,"color":"gray","bold":true},{"text":"o","italic":false,"color":"dark_gray","bold":true},{"text":"r","italic":false,"color":"gray","bold":true},{"text":"d
+          ","italic":false,"color":"dark_gray","bold":true},{"text":"H","italic":false,"color":"gray","bold":true},{"text":"e","italic":false,"color":"dark_gray","bold":true},{"text":"a","italic":false,"color":"gray","bold":true},{"text":"d","italic":false,"color":"dark_gray","bold":true}]}'
+        lore:
+        - '""'
+        - '{"text":"","extra":[{"text":"Receive permanent ","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"gray","bold":false},{"text":"Speed
+          I","italic":false,"color":"blue"}]}'
+        - '{"text":"","extra":[{"text":"Never feel hungry","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"gray","bold":false}]}'
+        - '""'
+        - '{"text":"","extra":[{"text":"Full Set Bonus: Skeleton Lord","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"gold","bold":false}]}'
+        - '{"text":"","extra":[{"text":"Increases ","italic":false,"color":"gray"},{"text":"♦
+          Speed ","italic":false,"color":"white"},{"text":"by ","italic":false,"color":"gray"},{"text":"+20","italic":false,"color":"green"},{"text":".","italic":false,"color":"gray"}]}'
+        attribute-modifiers:
+          GENERIC_ARMOR_TOUGHNESS:
+          - ==: org.bukkit.attribute.AttributeModifier
+            amount: 100.0
+            name: GENERIC_ARMOR_TOUGHNESS
+            uuid: ed28afe0-b40b-4b75-8204-593ecc124fcc
+            operation: 0
+          GENERIC_ARMOR:
+          - ==: org.bukkit.attribute.AttributeModifier
+            amount: 6.0
+            name: GENERIC_ARMOR
+            uuid: 8c20e563-243e-40da-b18b-caff055ed2d6
+            operation: 0
+          GENERIC_MAX_HEALTH:
+          - ==: org.bukkit.attribute.AttributeModifier
+            amount: 0.5
+            name: GENERIC_MAX_HEALTH
+            uuid: 34ed8263-89cb-4087-ab23-ecea212db6d1
+            operation: 0
+          - ==: org.bukkit.attribute.AttributeModifier
+            amount: 0.5
+            name: GENERIC_MAX_HEALTH
+            uuid: 8ea179c6-ded3-4ccc-b541-11c395110490
+            operation: 0
+          - ==: org.bukkit.attribute.AttributeModifier
+            amount: 1.0
+            name: GENERIC_MAX_HEALTH
+            uuid: c492139e-f096-4c1a-81a2-a7f8c215edfa
+            operation: 0
+        ItemFlags:
+        - HIDE_ENCHANTS
+        - HIDE_ATTRIBUTES
+        - HIDE_UNBREAKABLE
+        - HIDE_DESTROYS
+        - HIDE_PLACED_ON
+        - HIDE_POTION_EFFECTS
+        - HIDE_DYE
+        - HIDE_ARMOR_TRIM
+        Unbreakable: true
+        PublicBukkitValues: |-
+          {
+              "itemtag:effects_equips": "HEAD",
+              "itemtag:effects_list": "SPEED,0,false,true,true;SATURATION,2,false,true,true"
+          }
+        skull-owner:
+          ==: PlayerProfile
+          uniqueId: d8ad60ca-b4ba-38e4-98d5-753919020b6b
+          name: SEBELNINJA
+  sm3:
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3700
+      type: LEATHER_CHESTPLATE
+      meta:
+        ==: ItemMeta
+        meta-type: COLORABLE_ARMOR
+        display-name: '{"text":"","extra":[{"text":"S","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"gray","bold":true},{"text":"k","italic":false,"color":"dark_gray","bold":true},{"text":"e","italic":false,"color":"gray","bold":true},{"text":"l","italic":false,"color":"dark_gray","bold":true},{"text":"e","italic":false,"color":"gray","bold":true},{"text":"t","italic":false,"color":"dark_gray","bold":true},{"text":"o","italic":false,"color":"gray","bold":true},{"text":"n
+          ","italic":false,"color":"dark_gray","bold":true},{"text":"L","italic":false,"color":"gray","bold":true},{"text":"o","italic":false,"color":"dark_gray","bold":true},{"text":"r","italic":false,"color":"gray","bold":true},{"text":"d
+          ","italic":false,"color":"dark_gray","bold":true},{"text":"C","italic":false,"color":"gray","bold":true},{"text":"h","italic":false,"color":"dark_gray","bold":true},{"text":"e","italic":false,"color":"gray","bold":true},{"text":"s","italic":false,"color":"dark_gray","bold":true},{"text":"t","italic":false,"color":"gray","bold":true},{"text":"p","italic":false,"color":"dark_gray","bold":true},{"text":"l","italic":false,"color":"gray","bold":true},{"text":"a","italic":false,"color":"dark_gray","bold":true},{"text":"t","italic":false,"color":"gray","bold":true},{"text":"e","italic":false,"color":"dark_gray","bold":true}]}'
+        lore:
+        - '""'
+        - '{"text":"","extra":[{"text":"Protection IV, Unbreaking III","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"blue","bold":false}]}'
+        - '""'
+        - '{"text":"","extra":[{"text":"Full Set Bonus: Skeleton Lord","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"gold","bold":false}]}'
+        - '{"text":"","extra":[{"text":"Increases ","italic":false,"color":"gray"},{"text":"♦
+          Speed ","italic":false,"color":"white"},{"text":"by ","italic":false,"color":"gray"},{"text":"+20","italic":false,"color":"green"},{"text":".","italic":false,"color":"gray"}]}'
+        enchants:
+          PROTECTION_ENVIRONMENTAL: 4
+        attribute-modifiers:
+          GENERIC_ARMOR_TOUGHNESS:
+          - ==: org.bukkit.attribute.AttributeModifier
+            amount: 100.0
+            name: GENERIC_ARMOR_TOUGHNESS
+            uuid: 34e1d67d-e931-4af3-b1db-b58d75674eb7
+            operation: 0
+          GENERIC_ARMOR:
+          - ==: org.bukkit.attribute.AttributeModifier
+            amount: 6.0
+            name: GENERIC_ARMOR
+            uuid: 03be5b27-a171-4617-b4e2-7f23025e4a6b
+            operation: 0
+          GENERIC_MAX_HEALTH:
+          - ==: org.bukkit.attribute.AttributeModifier
+            amount: 1.0
+            name: GENERIC_MAX_HEALTH
+            uuid: f2dec3b4-9d7a-4401-954a-cf84e394af48
+            operation: 0
+          - ==: org.bukkit.attribute.AttributeModifier
+            amount: 0.5
+            name: GENERIC_MAX_HEALTH
+            uuid: 5aab733f-ee5e-4968-8834-19fbaac36ca0
+            operation: 0
+        ItemFlags:
+        - HIDE_ENCHANTS
+        - HIDE_ATTRIBUTES
+        - HIDE_UNBREAKABLE
+        - HIDE_DESTROYS
+        - HIDE_PLACED_ON
+        - HIDE_POTION_EFFECTS
+        - HIDE_DYE
+        - HIDE_ARMOR_TRIM
+        Unbreakable: true
+        color:
+          ==: Color
+          ALPHA: 255
+          RED: 204
+          BLUE: 211
+          GREEN: 211
+  sm4:
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3700
+      type: LEATHER_LEGGINGS
+      meta:
+        ==: ItemMeta
+        meta-type: COLORABLE_ARMOR
+        display-name: '{"text":"","extra":[{"text":"S","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"gray","bold":true},{"text":"k","italic":false,"color":"dark_gray","bold":true},{"text":"e","italic":false,"color":"gray","bold":true},{"text":"l","italic":false,"color":"dark_gray","bold":true},{"text":"e","italic":false,"color":"gray","bold":true},{"text":"t","italic":false,"color":"dark_gray","bold":true},{"text":"o","italic":false,"color":"gray","bold":true},{"text":"n
+          ","italic":false,"color":"dark_gray","bold":true},{"text":"L","italic":false,"color":"gray","bold":true},{"text":"o","italic":false,"color":"dark_gray","bold":true},{"text":"r","italic":false,"color":"gray","bold":true},{"text":"d
+          ","italic":false,"color":"dark_gray","bold":true},{"text":"L","italic":false,"color":"gray","bold":true},{"text":"e","italic":false,"color":"dark_gray","bold":true},{"text":"g","italic":false,"color":"gray","bold":true},{"text":"g","italic":false,"color":"dark_gray","bold":true},{"text":"i","italic":false,"color":"gray","bold":true},{"text":"n","italic":false,"color":"dark_gray","bold":true},{"text":"g","italic":false,"color":"gray","bold":true},{"text":"s","italic":false,"color":"dark_gray","bold":true}]}'
+        lore:
+        - '""'
+        - '{"text":"","extra":[{"text":"Protection IV, Unbreaking III","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"blue","bold":false}]}'
+        - '""'
+        - '{"text":"","extra":[{"text":"Full Set Bonus: Skeleton Lord","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"gold","bold":false}]}'
+        - '{"text":"","extra":[{"text":"Increases ","italic":false,"color":"gray"},{"text":"♦
+          Speed ","italic":false,"color":"white"},{"text":"by ","italic":false,"color":"gray"},{"text":"+20","italic":false,"color":"green"},{"text":".","italic":false,"color":"gray"}]}'
+        enchants:
+          PROTECTION_ENVIRONMENTAL: 4
+        attribute-modifiers:
+          GENERIC_ARMOR_TOUGHNESS:
+          - ==: org.bukkit.attribute.AttributeModifier
+            amount: 100.0
+            name: GENERIC_ARMOR_TOUGHNESS
+            uuid: 0b699d62-fc16-463c-a4a1-d1fa20e33617
+            operation: 0
+          GENERIC_ARMOR:
+          - ==: org.bukkit.attribute.AttributeModifier
+            amount: 6.0
+            name: GENERIC_ARMOR
+            uuid: 7c703553-3f5d-49bb-a5fb-0aa440775a50
+            operation: 0
+          GENERIC_MAX_HEALTH:
+          - ==: org.bukkit.attribute.AttributeModifier
+            amount: 1.0
+            name: GENERIC_MAX_HEALTH
+            uuid: f27eb808-c508-4bd1-a3e1-16fbdeb60454
+            operation: 0
+          - ==: org.bukkit.attribute.AttributeModifier
+            amount: 0.5
+            name: GENERIC_MAX_HEALTH
+            uuid: f84365b7-e029-4004-b4d9-d3517d197204
+            operation: 0
+        ItemFlags:
+        - HIDE_ENCHANTS
+        - HIDE_ATTRIBUTES
+        - HIDE_UNBREAKABLE
+        - HIDE_DESTROYS
+        - HIDE_PLACED_ON
+        - HIDE_POTION_EFFECTS
+        - HIDE_DYE
+        - HIDE_ARMOR_TRIM
+        Unbreakable: true
+        color:
+          ==: Color
+          ALPHA: 255
+          RED: 204
+          BLUE: 211
+          GREEN: 211
+  sm5:
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3700
+      type: LEATHER_BOOTS
+      meta:
+        ==: ItemMeta
+        meta-type: COLORABLE_ARMOR
+        display-name: '{"text":"","extra":[{"text":"S","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"gray","bold":true},{"text":"k","italic":false,"color":"dark_gray","bold":true},{"text":"e","italic":false,"color":"gray","bold":true},{"text":"l","italic":false,"color":"dark_gray","bold":true},{"text":"e","italic":false,"color":"gray","bold":true},{"text":"t","italic":false,"color":"dark_gray","bold":true},{"text":"o","italic":false,"color":"gray","bold":true},{"text":"n
+          ","italic":false,"color":"dark_gray","bold":true},{"text":"L","italic":false,"color":"gray","bold":true},{"text":"o","italic":false,"color":"dark_gray","bold":true},{"text":"r","italic":false,"color":"gray","bold":true},{"text":"d
+          ","italic":false,"color":"dark_gray","bold":true},{"text":"B","italic":false,"color":"gray","bold":true},{"text":"o","italic":false,"color":"dark_gray","bold":true},{"text":"o","italic":false,"color":"gray","bold":true},{"text":"t","italic":false,"color":"dark_gray","bold":true},{"text":"s","italic":false,"color":"gray","bold":true}]}'
+        lore:
+        - '""'
+        - '{"text":"","extra":[{"text":"Protection IV, Unbreaking III","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"blue","bold":false}]}'
+        - '""'
+        - '{"text":"","extra":[{"text":"Full Set Bonus: Skeleton Lord","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"gold","bold":false}]}'
+        - '{"text":"","extra":[{"text":"Increases ","italic":false,"color":"gray"},{"text":"♦
+          Speed ","italic":false,"color":"white"},{"text":"by ","italic":false,"color":"gray"},{"text":"+20","italic":false,"color":"green"},{"text":".","italic":false,"color":"gray"}]}'
+        enchants:
+          PROTECTION_ENVIRONMENTAL: 4
+        attribute-modifiers:
+          GENERIC_ARMOR_TOUGHNESS:
+          - ==: org.bukkit.attribute.AttributeModifier
+            amount: 100.0
+            name: GENERIC_ARMOR_TOUGHNESS
+            uuid: 0b41e008-6914-4948-84d5-f0ea11002c20
+            operation: 0
+          GENERIC_ARMOR:
+          - ==: org.bukkit.attribute.AttributeModifier
+            amount: 6.0
+            name: GENERIC_ARMOR
+            uuid: 12270cbf-88f4-4e96-8f44-141cac0f7dfa
+            operation: 0
+          GENERIC_MAX_HEALTH:
+          - ==: org.bukkit.attribute.AttributeModifier
+            amount: 1.0
+            name: GENERIC_MAX_HEALTH
+            uuid: 9c5c6de9-4978-4195-9537-75bc333597bd
+            operation: 0
+          - ==: org.bukkit.attribute.AttributeModifier
+            amount: 0.5
+            name: GENERIC_MAX_HEALTH
+            uuid: 0c87eb4d-fbe0-4edf-b0e1-699b6ba8cb41
+            operation: 0
+        ItemFlags:
+        - HIDE_ENCHANTS
+        - HIDE_ATTRIBUTES
+        - HIDE_UNBREAKABLE
+        - HIDE_DESTROYS
+        - HIDE_PLACED_ON
+        - HIDE_POTION_EFFECTS
+        - HIDE_DYE
+        - HIDE_ARMOR_TRIM
+        Unbreakable: true
+        color:
+          ==: Color
+          ALPHA: 255
+          RED: 204
+          BLUE: 211
+          GREEN: 211
+  smkit:
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3700
+      type: LIGHT_GRAY_SHULKER_BOX
+      meta:
+        ==: ItemMeta
+        meta-type: TILE_ENTITY
+        display-name: '{"text":"","extra":[{"text":"S","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"gray","bold":true},{"text":"k","italic":false,"color":"dark_gray","bold":true},{"text":"e","italic":false,"color":"gray","bold":true},{"text":"l","italic":false,"color":"dark_gray","bold":true},{"text":"e","italic":false,"color":"gray","bold":true},{"text":"t","italic":false,"color":"dark_gray","bold":true},{"text":"o","italic":false,"color":"gray","bold":true},{"text":"n
+          ","italic":false,"color":"dark_gray","bold":true},{"text":"L","italic":false,"color":"gray","bold":true},{"text":"o","italic":false,"color":"dark_gray","bold":true},{"text":"r","italic":false,"color":"gray","bold":true},{"text":"d
+          ","italic":false,"color":"dark_gray","bold":true},{"text":"S","italic":false,"color":"gray","bold":true},{"text":"e","italic":false,"color":"dark_gray","bold":true},{"text":"t","italic":false,"color":"gray","bold":true}]}'
+        internal: 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
+        blockMaterial: LIGHT_GRAY_SHULKER_BOX
+  air:
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3700
+      type: LIGHT_GRAY_STAINED_GLASS_PANE
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"text":"","extra":[" "]}'
+  air1:
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3700
+      type: LIGHT_GRAY_STAINED_GLASS_PANE
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"text":"","extra":[" "]}'
+  air2:
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3700
+      type: LIGHT_GRAY_STAINED_GLASS_PANE
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"text":"","extra":[" "]}'
+  wm1:
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3700
+      type: PLAYER_HEAD
+      meta:
+        ==: ItemMeta
+        meta-type: SKULL
+        display-name: '{"text":"","extra":[{"text":"W","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"aqua","bold":true},{"text":"a","italic":false,"color":"dark_aqua","bold":true},{"text":"r","italic":false,"color":"aqua","bold":true},{"text":"d","italic":false,"color":"dark_aqua","bold":true},{"text":"e","italic":false,"color":"aqua","bold":true},{"text":"n","italic":false,"color":"dark_aqua","bold":true},{"text":"''","italic":false,"color":"aqua","bold":true},{"text":"s
+          ","italic":false,"color":"dark_aqua","bold":true},{"text":"V","italic":false,"color":"aqua","bold":true},{"text":"i","italic":false,"color":"dark_aqua","bold":true},{"text":"g","italic":false,"color":"aqua","bold":true},{"text":"i","italic":false,"color":"dark_aqua","bold":true},{"text":"l
+          ","italic":false,"color":"aqua","bold":true},{"text":"M","italic":false,"color":"aqua","bold":true},{"text":"a","italic":false,"color":"dark_aqua","bold":true},{"text":"s","italic":false,"color":"aqua","bold":true},{"text":"k","italic":false,"color":"dark_aqua","bold":true}]}'
+        lore:
+        - '""'
+        - '{"text":"","extra":[{"text":"Receive permanent ","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"gray","bold":false},{"text":"Strength
+          I","italic":false,"color":"red"},{"text":".","italic":false,"color":"gray"}]}'
+        - '""'
+        - '{"text":"","extra":[{"text":"Full Set Bonus: Warden Set","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"gold","bold":false}]}'
+        - '{"text":"","extra":[{"text":"Gain additional ","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"gray","bold":false},{"text":"❤
+          hearts ","italic":false,"color":"red"},{"text":"by ","italic":false,"color":"gray"},{"text":"+2","italic":false,"color":"green"},{"text":".","italic":false,"color":"gray"}]}'
+        attribute-modifiers:
+          GENERIC_ARMOR_TOUGHNESS:
+          - ==: org.bukkit.attribute.AttributeModifier
+            amount: 3.0
+            name: GENERIC_ARMOR_TOUGHNESS
+            uuid: 260bfb58-155f-46c9-b515-41ba6f4df1a8
+            operation: 0
+          GENERIC_ARMOR:
+          - ==: org.bukkit.attribute.AttributeModifier
+            amount: 3.0
+            name: GENERIC_ARMOR
+            uuid: ff049307-d552-4a12-9aff-f3591913f4be
+            operation: 0
+          GENERIC_MAX_HEALTH:
+          - ==: org.bukkit.attribute.AttributeModifier
+            amount: 2.0
+            name: GENERIC_MAX_HEALTH
+            uuid: 6203aa33-2349-404f-950b-f7653a5cbcba
+            operation: 0
+          GENERIC_KNOCKBACK_RESISTANCE:
+          - ==: org.bukkit.attribute.AttributeModifier
+            amount: 1.0
+            name: GENERIC_KNOCKBACK_RESISTANCE
+            uuid: b1beb0af-6e7e-45c6-ac6d-57e56bd5a473
+            operation: 0
+        ItemFlags:
+        - HIDE_ENCHANTS
+        - HIDE_ATTRIBUTES
+        - HIDE_UNBREAKABLE
+        - HIDE_DESTROYS
+        - HIDE_PLACED_ON
+        - HIDE_POTION_EFFECTS
+        - HIDE_DYE
+        - HIDE_ARMOR_TRIM
+        Unbreakable: true
+        PublicBukkitValues: |-
+          {
+              "headsplus:storage": {
+                  "headsplus:mask_identifier": "warden"
+              }
+          }
+        skull-owner:
+          ==: PlayerProfile
+          uniqueId: ab637f1f-6b74-3536-b522-af26ddfe44b3
+          name: HPXHead
+          properties:
+          - name: textures
+            value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHBzOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzZjZjM2NzRiMmRkYzBlZjdjMzllM2I5YzZiNTg2NzdkZTVjZjM3N2QyZWIwNzNmMmYzZmU1MDkxOWIxY2E0YzkifX19
+  wm2:
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3700
+      type: LEATHER_CHESTPLATE
+      meta:
+        ==: ItemMeta
+        meta-type: COLORABLE_ARMOR
+        display-name: '{"text":"","extra":[{"text":"W","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"aqua","bold":true},{"text":"a","italic":false,"color":"dark_aqua","bold":true},{"text":"r","italic":false,"color":"aqua","bold":true},{"text":"d","italic":false,"color":"dark_aqua","bold":true},{"text":"e","italic":false,"color":"aqua","bold":true},{"text":"n","italic":false,"color":"dark_aqua","bold":true},{"text":"''","italic":false,"color":"aqua","bold":true},{"text":"s
+          ","italic":false,"color":"dark_aqua","bold":true},{"text":"V","italic":false,"color":"aqua","bold":true},{"text":"i","italic":false,"color":"dark_aqua","bold":true},{"text":"g","italic":false,"color":"aqua","bold":true},{"text":"i","italic":false,"color":"dark_aqua","bold":true},{"text":"l
+          ","italic":false,"color":"aqua","bold":true},{"text":"C","italic":false,"color":"aqua","bold":true},{"text":"h","italic":false,"color":"dark_aqua","bold":true},{"text":"e","italic":false,"color":"aqua","bold":true},{"text":"s","italic":false,"color":"dark_aqua","bold":true},{"text":"t","italic":false,"color":"aqua","bold":true},{"text":"p","italic":false,"color":"dark_aqua","bold":true},{"text":"l","italic":false,"color":"aqua","bold":true},{"text":"a","italic":false,"color":"dark_aqua","bold":true},{"text":"t","italic":false,"color":"aqua","bold":true},{"text":"e","italic":false,"color":"dark_aqua","bold":true}]}'
+        lore:
+        - '""'
+        - '{"text":"","extra":[{"text":"Protection IV, Unbreaking III","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"blue","bold":false}]}'
+        - '""'
+        - '{"text":"","extra":[{"text":"Full Set Bonus: Warden Set","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"gold","bold":false}]}'
+        - '{"text":"","extra":[{"text":"Gain additional ","italic":false,"color":"gray"},{"text":"❤
+          hearts ","italic":false,"color":"red"},{"text":"by ","italic":false,"color":"gray"},{"text":"+2","italic":false,"color":"green"},{"text":".","italic":false,"color":"gray"}]}'
+        enchants:
+          PROTECTION_ENVIRONMENTAL: 4
+        attribute-modifiers:
+          GENERIC_ARMOR_TOUGHNESS:
+          - ==: org.bukkit.attribute.AttributeModifier
+            amount: 3.0
+            name: GENERIC_ARMOR_TOUGHNESS
+            uuid: bee9aa9f-7c95-4cd6-929a-82761719282f
+            operation: 0
+          GENERIC_ARMOR:
+          - ==: org.bukkit.attribute.AttributeModifier
+            amount: 8.0
+            name: GENERIC_ARMOR
+            uuid: c6bb5ea9-fd34-4f81-b548-1fd1a328e8b6
+            operation: 0
+          GENERIC_MAX_HEALTH:
+          - ==: org.bukkit.attribute.AttributeModifier
+            amount: 3.0
+            name: GENERIC_MAX_HEALTH
+            uuid: 7329a235-dd28-4975-922b-99d21c70c600
+            operation: 0
+          GENERIC_KNOCKBACK_RESISTANCE:
+          - ==: org.bukkit.attribute.AttributeModifier
+            amount: 1.0
+            name: GENERIC_KNOCKBACK_RESISTANCE
+            uuid: 18d77734-1f55-46d1-bb76-3e0f925e11d5
+            operation: 0
+        ItemFlags:
+        - HIDE_ENCHANTS
+        - HIDE_ATTRIBUTES
+        - HIDE_UNBREAKABLE
+        - HIDE_DESTROYS
+        - HIDE_PLACED_ON
+        - HIDE_POTION_EFFECTS
+        - HIDE_DYE
+        - HIDE_ARMOR_TRIM
+        Unbreakable: true
+        color:
+          ==: Color
+          ALPHA: 255
+          RED: 76
+          BLUE: 173
+          GREEN: 157
+  wm3:
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3700
+      type: LEATHER_LEGGINGS
+      meta:
+        ==: ItemMeta
+        meta-type: COLORABLE_ARMOR
+        display-name: '{"text":"","extra":[{"text":"W","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"aqua","bold":true},{"text":"a","italic":false,"color":"dark_aqua","bold":true},{"text":"r","italic":false,"color":"aqua","bold":true},{"text":"d","italic":false,"color":"dark_aqua","bold":true},{"text":"e","italic":false,"color":"aqua","bold":true},{"text":"n","italic":false,"color":"dark_aqua","bold":true},{"text":"''","italic":false,"color":"aqua","bold":true},{"text":"s
+          ","italic":false,"color":"dark_aqua","bold":true},{"text":"V","italic":false,"color":"aqua","bold":true},{"text":"i","italic":false,"color":"dark_aqua","bold":true},{"text":"g","italic":false,"color":"aqua","bold":true},{"text":"i","italic":false,"color":"dark_aqua","bold":true},{"text":"l
+          ","italic":false,"color":"aqua","bold":true},{"text":"L","italic":false,"color":"aqua","bold":true},{"text":"e","italic":false,"color":"dark_aqua","bold":true},{"text":"g","italic":false,"color":"aqua","bold":true},{"text":"g","italic":false,"color":"dark_aqua","bold":true},{"text":"i","italic":false,"color":"aqua","bold":true},{"text":"n","italic":false,"color":"dark_aqua","bold":true},{"text":"g","italic":false,"color":"aqua","bold":true},{"text":"s","italic":false,"color":"dark_aqua","bold":true}]}'
+        lore:
+        - '""'
+        - '{"text":"","extra":[{"text":"Protection IV, Unbreaking III","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"blue","bold":false}]}'
+        - '""'
+        - '{"text":"","extra":[{"text":"Full Set Bonus: Warden Set","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"gold","bold":false}]}'
+        - '{"text":"","extra":[{"text":"Gain additional ","italic":false,"color":"gray"},{"text":"❤
+          hearts ","italic":false,"color":"red"},{"text":"by ","italic":false,"color":"gray"},{"text":"+2","italic":false,"color":"green"},{"text":".","italic":false,"color":"gray"}]}'
+        enchants:
+          PROTECTION_ENVIRONMENTAL: 4
+        attribute-modifiers:
+          GENERIC_ARMOR_TOUGHNESS:
+          - ==: org.bukkit.attribute.AttributeModifier
+            amount: 3.0
+            name: GENERIC_ARMOR_TOUGHNESS
+            uuid: c386e543-a4c7-4328-966a-ebf0c0924c2c
+            operation: 0
+          GENERIC_ARMOR:
+          - ==: org.bukkit.attribute.AttributeModifier
+            amount: 6.0
+            name: GENERIC_ARMOR
+            uuid: f9ff050d-c57e-405b-b51d-3f481bdadbbe
+            operation: 0
+          GENERIC_MAX_HEALTH:
+          - ==: org.bukkit.attribute.AttributeModifier
+            amount: 2.0
+            name: GENERIC_MAX_HEALTH
+            uuid: efda35b4-fc13-4904-8e77-ab8b93da954c
+            operation: 0
+          GENERIC_KNOCKBACK_RESISTANCE:
+          - ==: org.bukkit.attribute.AttributeModifier
+            amount: 1.0
+            name: GENERIC_KNOCKBACK_RESISTANCE
+            uuid: b8994c23-0f52-4d30-9250-5633693db1f0
+            operation: 0
+        ItemFlags:
+        - HIDE_ENCHANTS
+        - HIDE_ATTRIBUTES
+        - HIDE_UNBREAKABLE
+        - HIDE_DESTROYS
+        - HIDE_PLACED_ON
+        - HIDE_POTION_EFFECTS
+        - HIDE_DYE
+        - HIDE_ARMOR_TRIM
+        Unbreakable: true
+        color:
+          ==: Color
+          ALPHA: 255
+          RED: 77
+          BLUE: 214
+          GREEN: 185
+  wm4:
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3700
+      type: LEATHER_BOOTS
+      meta:
+        ==: ItemMeta
+        meta-type: COLORABLE_ARMOR
+        display-name: '{"text":"","extra":[{"text":"W","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"aqua","bold":true},{"text":"a","italic":false,"color":"dark_aqua","bold":true},{"text":"r","italic":false,"color":"aqua","bold":true},{"text":"d","italic":false,"color":"dark_aqua","bold":true},{"text":"e","italic":false,"color":"aqua","bold":true},{"text":"n","italic":false,"color":"dark_aqua","bold":true},{"text":"''","italic":false,"color":"aqua","bold":true},{"text":"s
+          ","italic":false,"color":"dark_aqua","bold":true},{"text":"V","italic":false,"color":"aqua","bold":true},{"text":"i","italic":false,"color":"dark_aqua","bold":true},{"text":"g","italic":false,"color":"aqua","bold":true},{"text":"i","italic":false,"color":"dark_aqua","bold":true},{"text":"l
+          ","italic":false,"color":"aqua","bold":true},{"text":"B","italic":false,"color":"aqua","bold":true},{"text":"o","italic":false,"color":"dark_aqua","bold":true},{"text":"o","italic":false,"color":"aqua","bold":true},{"text":"t","italic":false,"color":"dark_aqua","bold":true},{"text":"s","italic":false,"color":"aqua","bold":true}]}'
+        lore:
+        - '""'
+        - '{"text":"","extra":[{"text":"Protection IV, Unbreaking III","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"blue","bold":false}]}'
+        - '""'
+        - '{"text":"","extra":[{"text":"Full Set Bonus: Warden Set","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"gold","bold":false}]}'
+        - '{"text":"","extra":[{"text":"Gain additional ","italic":false,"color":"gray"},{"text":"❤
+          hearts ","italic":false,"color":"red"},{"text":"by ","italic":false,"color":"gray"},{"text":"+2","italic":false,"color":"green"},{"text":".","italic":false,"color":"gray"}]}'
+        enchants:
+          PROTECTION_ENVIRONMENTAL: 4
+        attribute-modifiers:
+          GENERIC_ARMOR_TOUGHNESS:
+          - ==: org.bukkit.attribute.AttributeModifier
+            amount: 3.0
+            name: GENERIC_ARMOR_TOUGHNESS
+            uuid: 494da280-807f-4c60-b098-36a117f780dc
+            operation: 0
+          GENERIC_ARMOR:
+          - ==: org.bukkit.attribute.AttributeModifier
+            amount: 3.0
+            name: GENERIC_ARMOR
+            uuid: d1c92908-87fe-48c9-b0d3-7959c78de9dd
+            operation: 0
+          GENERIC_MAX_HEALTH:
+          - ==: org.bukkit.attribute.AttributeModifier
+            amount: 2.5
+            name: GENERIC_MAX_HEALTH
+            uuid: a406222e-e1de-4362-b8ad-60cea58b8d68
+            operation: 0
+          GENERIC_KNOCKBACK_RESISTANCE:
+          - ==: org.bukkit.attribute.AttributeModifier
+            amount: 1.0
+            name: GENERIC_KNOCKBACK_RESISTANCE
+            uuid: 262a45ac-0214-4c26-afb2-032459e4ed94
+            operation: 0
+        ItemFlags:
+        - HIDE_ENCHANTS
+        - HIDE_ATTRIBUTES
+        - HIDE_UNBREAKABLE
+        - HIDE_DESTROYS
+        - HIDE_PLACED_ON
+        - HIDE_POTION_EFFECTS
+        - HIDE_DYE
+        - HIDE_ARMOR_TRIM
+        Unbreakable: true
+        color:
+          ==: Color
+          ALPHA: 255
+          RED: 59
+          BLUE: 183
+          GREEN: 174
+  wm5:
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3700
+      type: DIAMOND_SWORD
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"text":"","extra":[{"text":"W","italic":false,"color":"aqua","bold":true},{"text":"a","italic":false,"color":"dark_aqua","bold":true},{"text":"r","italic":false,"color":"aqua","bold":true},{"text":"d","italic":false,"color":"dark_aqua","bold":true},{"text":"e","italic":false,"color":"aqua","bold":true},{"text":"n
+          ","italic":false,"color":"dark_aqua","bold":true},{"text":"S","italic":false,"color":"aqua","bold":true},{"text":"w","italic":false,"color":"dark_aqua","bold":true},{"text":"o","italic":false,"color":"aqua","bold":true},{"text":"r","italic":false,"color":"dark_aqua","bold":true},{"text":"d","italic":false,"color":"aqua","bold":true},{"text":"","italic":false,"color":"dark_aqua","bold":true}]}'
+        lore:
+        - '""'
+        - '{"text":"","extra":[{"text":"Berserk","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"blue","bold":false}]}'
+        - '{"text":"","extra":[{"text":"Hold this sword to feel the extra power within
+          you.","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"gray","bold":false}]}'
+        - '""'
+        - '{"text":"","extra":[{"text":"Special Ability","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"gold","bold":false}]}'
+        - '{"text":"","extra":[{"text":"Knock back your enemies ","italic":false,"color":"gray"},{"text":"2.0x
+          ","italic":false,"color":"green"},{"text":"times more than normal damage.","italic":false,"color":"gray"}]}'
+        enchants:
+          FIRE_ASPECT: 2
+          KNOCKBACK: 2
+          LOOT_BONUS_MOBS: 3
+          DAMAGE_ALL: 5
+          SWEEPING_EDGE: 3
+        attribute-modifiers:
+          GENERIC_ATTACK_KNOCKBACK:
+          - ==: org.bukkit.attribute.AttributeModifier
+            amount: 2.0
+            name: GENERIC_ATTACK_KNOCKBACK
+            uuid: c9181ffe-2076-49f6-a4a1-333086439e24
+            operation: 0
+          - ==: org.bukkit.attribute.AttributeModifier
+            amount: 2.0
+            name: GENERIC_ATTACK_KNOCKBACK
+            uuid: ced0b351-8603-4b9d-ad49-10d40526db61
+            operation: 0
+          - ==: org.bukkit.attribute.AttributeModifier
+            amount: 4.0
+            name: GENERIC_ATTACK_KNOCKBACK
+            uuid: 7b266345-990a-4482-b8ef-11773a8b4fbf
+            operation: 0
+        ItemFlags:
+        - HIDE_ENCHANTS
+        - HIDE_ATTRIBUTES
+        - HIDE_UNBREAKABLE
+        - HIDE_DESTROYS
+        - HIDE_PLACED_ON
+        - HIDE_POTION_EFFECTS
+        - HIDE_DYE
+        - HIDE_ARMOR_TRIM
+        Unbreakable: true
+        PublicBukkitValues: |-
+          {
+              "itemtag:effects_list": "INCREASE_DAMAGE,0,false,true,true"
+          }
+  wmkit:
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3700
+      type: CYAN_SHULKER_BOX
+      meta:
+        ==: ItemMeta
+        meta-type: TILE_ENTITY
+        display-name: '{"text":"","extra":[{"text":"W","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"aqua","bold":true},{"text":"a","italic":false,"color":"dark_aqua","bold":true},{"text":"r","italic":false,"color":"aqua","bold":true},{"text":"d","italic":false,"color":"dark_aqua","bold":true},{"text":"e","italic":false,"color":"aqua","bold":true},{"text":"n
+          ","italic":false,"color":"dark_aqua","bold":true},{"text":"V","italic":false,"color":"aqua","bold":true},{"text":"i","italic":false,"color":"dark_aqua","bold":true},{"text":"g","italic":false,"color":"aqua","bold":true},{"text":"i","italic":false,"color":"dark_aqua","bold":true},{"text":"l
+          ","italic":false,"color":"aqua","bold":true},{"text":"S","italic":false,"color":"aqua","bold":true},{"text":"e","italic":false,"color":"dark_aqua","bold":true},{"text":"t","italic":false,"color":"aqua","bold":true}]}'
+        internal: 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
+        blockMaterial: CYAN_SHULKER_BOX
+  bm1:
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3700
+      type: TRIDENT
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"text":"","extra":[{"text":"Z","italic":false,"color":"light_purple","bold":true},{"text":"e","italic":false,"color":"white","bold":true},{"text":"p","italic":false,"color":"light_purple","bold":true},{"text":"h","italic":false,"color":"white","bold":true},{"text":"y","italic":false,"color":"light_purple","bold":true},{"text":"r","italic":false,"color":"white","bold":true},{"text":"''","italic":false,"color":"light_purple","bold":true},{"text":"s
+          ","italic":false,"color":"white","bold":true},{"text":"S","italic":false,"color":"light_purple","bold":true},{"text":"p","italic":false,"color":"white","bold":true},{"text":"e","italic":false,"color":"light_purple","bold":true},{"text":"a","italic":false,"color":"white","bold":true},{"text":"r","italic":false,"color":"light_purple","bold":true}]}'
+        lore:
+        - '""'
+        - '{"text":"","extra":[{"text":"Loyalty III","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"blue","bold":false}]}'
+        - '{"text":"","extra":[{"text":"This item is more loyal than your ex.","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"gray","bold":false}]}'
+        - '""'
+        - '{"text":"","extra":[{"text":"Special Ability","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"gold","bold":false}]}'
+        - '{"text":"","extra":[{"text":"Holding this Spear will make you receive ","italic":false,"color":"gray"},{"text":"Levitation
+          III","italic":false,"color":"white"},{"text":".","italic":false,"color":"gray"}]}'
+        enchants:
+          CHANNELING: 1
+          IMPALING: 5
+          LOYALTY: 3
+          DURABILITY: 3
+        ItemFlags:
+        - HIDE_ENCHANTS
+        - HIDE_ATTRIBUTES
+        - HIDE_UNBREAKABLE
+        - HIDE_DESTROYS
+        - HIDE_PLACED_ON
+        - HIDE_POTION_EFFECTS
+        - HIDE_DYE
+        - HIDE_ARMOR_TRIM
+        Unbreakable: true
+        PublicBukkitValues: |-
+          {
+              "itemtag:effects_list": "LEVITATION,2,false,true,true"
+          }
+  bm2:
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3700
+      type: PLAYER_HEAD
+      meta:
+        ==: ItemMeta
+        meta-type: SKULL
+        display-name: '{"text":"","extra":[{"text":"B","italic":false,"color":"light_purple","bold":true},{"text":"r","italic":false,"color":"white","bold":true},{"text":"e","italic":false,"color":"light_purple","bold":true},{"text":"e","italic":false,"color":"white","bold":true},{"text":"z","italic":false,"color":"light_purple","bold":true},{"text":"e","italic":false,"color":"white","bold":true},{"text":"b","italic":false,"color":"light_purple","bold":true},{"text":"l","italic":false,"color":"white","bold":true},{"text":"i","italic":false,"color":"light_purple","bold":true},{"text":"t","italic":false,"color":"white","bold":true},{"text":"s
+          ","italic":false,"color":"light_purple","bold":true},{"text":"M","italic":false,"color":"light_purple","bold":true},{"text":"a","italic":false,"color":"white","bold":true},{"text":"s","italic":false,"color":"light_purple","bold":true},{"text":"k","italic":false,"color":"white","bold":true}]}'
+        lore:
+        - '""'
+        - '{"text":"","extra":[{"text":"Receive permanent ","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"gray","bold":false},{"text":"Slow
+          Falling III","italic":false,"color":"white"},{"text":".","italic":false,"color":"gray"}]}'
+        - '""'
+        - '{"text":"","extra":[{"text":"Full Set Bonus: Breezeblits Set","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"gold","bold":false}]}'
+        - '{"text":"","extra":[{"text":"Receive ","italic":false,"color":"gray"},{"text":"☁
+          Slow Falling ","italic":false,"color":"white"},{"text":"by ","italic":false,"color":"gray"},{"text":"+75%","italic":false,"color":"green"},{"text":".","italic":false,"color":"gray"}]}'
+        attribute-modifiers:
+          GENERIC_ARMOR:
+          - ==: org.bukkit.attribute.AttributeModifier
+            amount: 3.0
+            name: GENERIC_ARMOR
+            uuid: 967fada8-053b-4086-8546-6f75e1adce4f
+            operation: 0
+          GENERIC_KNOCKBACK_RESISTANCE:
+          - ==: org.bukkit.attribute.AttributeModifier
+            amount: 1.0
+            name: GENERIC_KNOCKBACK_RESISTANCE
+            uuid: 352702a0-6786-4f75-831e-7e9396e93711
+            operation: 0
+          GENERIC_ARMOR_TOUGHNESS:
+          - ==: org.bukkit.attribute.AttributeModifier
+            amount: 3.0
+            name: GENERIC_ARMOR_TOUGHNESS
+            uuid: 2c0afe8e-6f85-46f0-9397-3aa6ea696013
+            operation: 0
+          GENERIC_MAX_HEALTH:
+          - ==: org.bukkit.attribute.AttributeModifier
+            amount: 2.0
+            name: GENERIC_MAX_HEALTH
+            uuid: 25102946-b33a-4a43-a37b-1d82b266a8b5
+            operation: 0
+        ItemFlags:
+        - HIDE_ENCHANTS
+        - HIDE_ATTRIBUTES
+        - HIDE_UNBREAKABLE
+        - HIDE_DESTROYS
+        - HIDE_PLACED_ON
+        - HIDE_POTION_EFFECTS
+        - HIDE_DYE
+        - HIDE_ARMOR_TRIM
+        Unbreakable: true
+        PublicBukkitValues: |-
+          {
+              "headsplus:storage": {
+                  "headsplus:mask_identifier": "breeze"
+              },
+              "itemtag:effects_list": "SLOW_FALLING,2,false,true,true"
+          }
+        skull-owner:
+          ==: PlayerProfile
+          uniqueId: 3a81e321-317a-329b-96c6-4496ee12a1e8
+          name: HPXHead
+          properties:
+          - name: textures
+            value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHBzOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2EyNzU3MjhhZjdlNmEyOWM4ODEyNWI2NzVhMzlkODhhZTk5MTliYjYxZmRjMjAwMzM3ZmVkNmFiMGM0OWQ2NWMifX19
+  bm3:
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3700
+      type: LEATHER_CHESTPLATE
+      meta:
+        ==: ItemMeta
+        meta-type: COLORABLE_ARMOR
+        display-name: '{"text":"","extra":[{"text":"B","italic":false,"color":"light_purple","bold":true},{"text":"r","italic":false,"color":"white","bold":true},{"text":"e","italic":false,"color":"light_purple","bold":true},{"text":"e","italic":false,"color":"white","bold":true},{"text":"z","italic":false,"color":"light_purple","bold":true},{"text":"e","italic":false,"color":"white","bold":true},{"text":"b","italic":false,"color":"light_purple","bold":true},{"text":"l","italic":false,"color":"white","bold":true},{"text":"i","italic":false,"color":"light_purple","bold":true},{"text":"t","italic":false,"color":"white","bold":true},{"text":"s
+          ","italic":false,"color":"light_purple","bold":true},{"text":"C","italic":false,"color":"light_purple","bold":true},{"text":"h","italic":false,"color":"white","bold":true},{"text":"e","italic":false,"color":"light_purple","bold":true},{"text":"s","italic":false,"color":"white","bold":true},{"text":"t","italic":false,"color":"light_purple","bold":true},{"text":"p","italic":false,"color":"white","bold":true},{"text":"l","italic":false,"color":"light_purple","bold":true},{"text":"a","italic":false,"color":"white","bold":true},{"text":"t","italic":false,"color":"light_purple","bold":true},{"text":"e","italic":false,"color":"white","bold":true}]}'
+        lore:
+        - '""'
+        - '{"text":"","extra":[{"text":"Protection IV, Unbreaking III","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"blue","bold":false}]}'
+        - '""'
+        - '{"text":"","extra":[{"text":"Full Set Bonus: Breezeblits Set","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"gold","bold":false}]}'
+        - '{"text":"","extra":[{"text":"Receive ","italic":false,"color":"gray"},{"text":"☁
+          Slow Falling ","italic":false,"color":"white"},{"text":"by ","italic":false,"color":"gray"},{"text":"+75%","italic":false,"color":"green"},{"text":".","italic":false,"color":"gray"}]}'
+        enchants:
+          PROTECTION_ENVIRONMENTAL: 4
+        attribute-modifiers:
+          GENERIC_ARMOR:
+          - ==: org.bukkit.attribute.AttributeModifier
+            amount: 8.0
+            name: GENERIC_ARMOR
+            uuid: 28f3b31e-844e-4bff-936a-88173e48a30e
+            operation: 0
+          GENERIC_KNOCKBACK_RESISTANCE:
+          - ==: org.bukkit.attribute.AttributeModifier
+            amount: 1.0
+            name: GENERIC_KNOCKBACK_RESISTANCE
+            uuid: 10b2180d-978d-42b5-8d32-3527cb41cd2e
+            operation: 0
+          GENERIC_ARMOR_TOUGHNESS:
+          - ==: org.bukkit.attribute.AttributeModifier
+            amount: 3.0
+            name: GENERIC_ARMOR_TOUGHNESS
+            uuid: bbf7d6cb-d8db-48f9-8b01-d40d395f87b6
+            operation: 0
+          GENERIC_MAX_HEALTH:
+          - ==: org.bukkit.attribute.AttributeModifier
+            amount: 2.0
+            name: GENERIC_MAX_HEALTH
+            uuid: 06bb4d80-7b16-4d89-9bf2-1daa8a3efda2
+            operation: 0
+        ItemFlags:
+        - HIDE_ENCHANTS
+        - HIDE_ATTRIBUTES
+        - HIDE_UNBREAKABLE
+        - HIDE_DESTROYS
+        - HIDE_PLACED_ON
+        - HIDE_POTION_EFFECTS
+        - HIDE_DYE
+        - HIDE_ARMOR_TRIM
+        Unbreakable: true
+        color:
+          ==: Color
+          ALPHA: 255
+          RED: 216
+          BLUE: 230
+          GREEN: 182
+  bm4:
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3700
+      type: LEATHER_LEGGINGS
+      meta:
+        ==: ItemMeta
+        meta-type: COLORABLE_ARMOR
+        display-name: '{"text":"","extra":[{"text":"B","italic":false,"color":"light_purple","bold":true},{"text":"r","italic":false,"color":"white","bold":true},{"text":"e","italic":false,"color":"light_purple","bold":true},{"text":"e","italic":false,"color":"white","bold":true},{"text":"z","italic":false,"color":"light_purple","bold":true},{"text":"e","italic":false,"color":"white","bold":true},{"text":"b","italic":false,"color":"light_purple","bold":true},{"text":"l","italic":false,"color":"white","bold":true},{"text":"i","italic":false,"color":"light_purple","bold":true},{"text":"t","italic":false,"color":"white","bold":true},{"text":"s
+          ","italic":false,"color":"light_purple","bold":true},{"text":"L","italic":false,"color":"light_purple","bold":true},{"text":"e","italic":false,"color":"white","bold":true},{"text":"g","italic":false,"color":"light_purple","bold":true},{"text":"g","italic":false,"color":"white","bold":true},{"text":"i","italic":false,"color":"light_purple","bold":true},{"text":"n","italic":false,"color":"white","bold":true},{"text":"g","italic":false,"color":"light_purple","bold":true},{"text":"s","italic":false,"color":"white","bold":true}]}'
+        lore:
+        - '""'
+        - '{"text":"","extra":[{"text":"Protection IV, Unbreaking III","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"blue","bold":false}]}'
+        - '""'
+        - '{"text":"","extra":[{"text":"Full Set Bonus: Breezeblits Set","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"gold","bold":false}]}'
+        - '{"text":"","extra":[{"text":"Receive ","italic":false,"color":"gray"},{"text":"☁
+          Slow Falling ","italic":false,"color":"white"},{"text":"by ","italic":false,"color":"gray"},{"text":"+75%","italic":false,"color":"green"},{"text":".","italic":false,"color":"gray"}]}'
+        enchants:
+          PROTECTION_ENVIRONMENTAL: 4
+        attribute-modifiers:
+          GENERIC_ARMOR:
+          - ==: org.bukkit.attribute.AttributeModifier
+            amount: 6.0
+            name: GENERIC_ARMOR
+            uuid: 955580dd-33e3-40bc-a066-2cb833eabc6f
+            operation: 0
+          GENERIC_KNOCKBACK_RESISTANCE:
+          - ==: org.bukkit.attribute.AttributeModifier
+            amount: 1.0
+            name: GENERIC_KNOCKBACK_RESISTANCE
+            uuid: 1c178ef9-fc2a-4650-aff0-248c4a992b9e
+            operation: 0
+          GENERIC_ARMOR_TOUGHNESS:
+          - ==: org.bukkit.attribute.AttributeModifier
+            amount: 3.0
+            name: GENERIC_ARMOR_TOUGHNESS
+            uuid: f2b2c819-c58e-4638-8fd0-dbbed51c0ef4
+            operation: 0
+          GENERIC_MAX_HEALTH:
+          - ==: org.bukkit.attribute.AttributeModifier
+            amount: 2.0
+            name: GENERIC_MAX_HEALTH
+            uuid: f6bcbee3-a1e7-43fb-aae2-4753792d5a01
+            operation: 0
+        ItemFlags:
+        - HIDE_ENCHANTS
+        - HIDE_ATTRIBUTES
+        - HIDE_UNBREAKABLE
+        - HIDE_DESTROYS
+        - HIDE_PLACED_ON
+        - HIDE_POTION_EFFECTS
+        - HIDE_DYE
+        - HIDE_ARMOR_TRIM
+        Unbreakable: true
+        color:
+          ==: Color
+          ALPHA: 255
+          RED: 216
+          BLUE: 230
+          GREEN: 182
+  bm5:
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3700
+      type: LEATHER_BOOTS
+      meta:
+        ==: ItemMeta
+        meta-type: COLORABLE_ARMOR
+        display-name: '{"text":"","extra":[{"text":"B","italic":false,"color":"light_purple","bold":true},{"text":"r","italic":false,"color":"white","bold":true},{"text":"e","italic":false,"color":"light_purple","bold":true},{"text":"e","italic":false,"color":"white","bold":true},{"text":"z","italic":false,"color":"light_purple","bold":true},{"text":"e","italic":false,"color":"white","bold":true},{"text":"b","italic":false,"color":"light_purple","bold":true},{"text":"l","italic":false,"color":"white","bold":true},{"text":"i","italic":false,"color":"light_purple","bold":true},{"text":"t","italic":false,"color":"white","bold":true},{"text":"s
+          ","italic":false,"color":"light_purple","bold":true},{"text":"B","italic":false,"color":"light_purple","bold":true},{"text":"o","italic":false,"color":"white","bold":true},{"text":"o","italic":false,"color":"light_purple","bold":true},{"text":"t","italic":false,"color":"white","bold":true},{"text":"s","italic":false,"color":"light_purple","bold":true}]}'
+        lore:
+        - '""'
+        - '{"text":"","extra":[{"text":"Protection IV, Unbreaking III","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"blue","bold":false}]}'
+        - '""'
+        - '{"text":"","extra":[{"text":"Full Set Bonus: Breezeblits Set","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"gold","bold":false}]}'
+        - '{"text":"","extra":[{"text":"Receive ","italic":false,"color":"gray"},{"text":"☁
+          Slow Falling ","italic":false,"color":"white"},{"text":"by ","italic":false,"color":"gray"},{"text":"+75%","italic":false,"color":"green"},{"text":".","italic":false,"color":"gray"}]}'
+        enchants:
+          PROTECTION_ENVIRONMENTAL: 4
+        attribute-modifiers:
+          GENERIC_ARMOR:
+          - ==: org.bukkit.attribute.AttributeModifier
+            amount: 3.0
+            name: GENERIC_ARMOR
+            uuid: 310c7d9d-8837-46fd-83b0-460b0702ce60
+            operation: 0
+          GENERIC_KNOCKBACK_RESISTANCE:
+          - ==: org.bukkit.attribute.AttributeModifier
+            amount: 1.0
+            name: GENERIC_KNOCKBACK_RESISTANCE
+            uuid: 957f5cbe-7709-4d80-aa05-a6b9a47ceb82
+            operation: 0
+          GENERIC_ARMOR_TOUGHNESS:
+          - ==: org.bukkit.attribute.AttributeModifier
+            amount: 3.0
+            name: GENERIC_ARMOR_TOUGHNESS
+            uuid: 83e4a9bb-c0b2-47b6-a979-88a33fd71697
+            operation: 0
+          GENERIC_MAX_HEALTH:
+          - ==: org.bukkit.attribute.AttributeModifier
+            amount: 1.0
+            name: GENERIC_MAX_HEALTH
+            uuid: f84d9bc5-3f59-48f0-80a6-f6a942e19e29
+            operation: 0
+        ItemFlags:
+        - HIDE_ENCHANTS
+        - HIDE_ATTRIBUTES
+        - HIDE_UNBREAKABLE
+        - HIDE_DESTROYS
+        - HIDE_PLACED_ON
+        - HIDE_POTION_EFFECTS
+        - HIDE_DYE
+        - HIDE_ARMOR_TRIM
+        Unbreakable: true
+        color:
+          ==: Color
+          ALPHA: 255
+          RED: 216
+          BLUE: 230
+          GREEN: 182
+  bmkit:
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3700
+      type: SHULKER_BOX
+      meta:
+        ==: ItemMeta
+        meta-type: TILE_ENTITY
+        display-name: '{"text":"","extra":[{"text":"B","italic":false,"color":"light_purple","bold":true},{"text":"r","italic":false,"color":"white","bold":true},{"text":"e","italic":false,"color":"light_purple","bold":true},{"text":"e","italic":false,"color":"white","bold":true},{"text":"z","italic":false,"color":"light_purple","bold":true},{"text":"e","italic":false,"color":"white","bold":true},{"text":"b","italic":false,"color":"light_purple","bold":true},{"text":"l","italic":false,"color":"white","bold":true},{"text":"i","italic":false,"color":"light_purple","bold":true},{"text":"t","italic":false,"color":"white","bold":true},{"text":"s
+          ","italic":false,"color":"light_purple","bold":true},{"text":"S","italic":false,"color":"light_purple","bold":true},{"text":"e","italic":false,"color":"white","bold":true},{"text":"t","italic":false,"color":"light_purple","bold":true}]}'
+        internal: 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
+        blockMaterial: SHULKER_BOX
+  ch1:
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3700
+      type: DIAMOND_AXE
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"text":"","extra":[{"text":"R","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"yellow","bold":true},{"text":"o","italic":false,"color":"white","bold":true},{"text":"o","italic":false,"color":"yellow","bold":true},{"text":"s","italic":false,"color":"white","bold":true},{"text":"t","italic":false,"color":"yellow","bold":true},{"text":"e","italic":false,"color":"white","bold":true},{"text":"r","italic":false,"color":"yellow","bold":true},{"text":"''","italic":false,"color":"white","bold":true},{"text":"s
+          ","italic":false,"color":"yellow","bold":true},{"text":"R","italic":false,"color":"yellow","bold":true},{"text":"a","italic":false,"color":"white","bold":true},{"text":"m","italic":false,"color":"yellow","bold":true},{"text":"p","italic":false,"color":"white","bold":true},{"text":"a","italic":false,"color":"yellow","bold":true},{"text":"g","italic":false,"color":"white","bold":true},{"text":"e","italic":false,"color":"yellow","bold":true}]}'
+        lore:
+        - '""'
+        - '{"text":"","extra":[{"text":"Feathered Fury","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"blue","bold":false}]}'
+        - '{"text":"","extra":[{"text":"Unleashes a flurry of rapid strikes, dealing
+          extra damage with each hit.","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"gray","bold":false}]}'
+        - '""'
+        - '{"text":"","extra":[{"text":"Special Ability","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"gold","bold":false}]}'
+        - '{"text":"","extra":[{"text":"Hold this Hammer to gain ","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"gray","bold":false},{"text":"♠
+          Haste III","italic":false,"color":"yellow"},{"text":".","italic":false,"color":"gray"}]}'
+        enchants:
+          DIG_SPEED: 5
+          LOOT_BONUS_BLOCKS: 3
+          DAMAGE_ALL: 5
+          DURABILITY: 3
+        ItemFlags:
+        - HIDE_ENCHANTS
+        - HIDE_ATTRIBUTES
+        - HIDE_UNBREAKABLE
+        - HIDE_DESTROYS
+        - HIDE_PLACED_ON
+        - HIDE_POTION_EFFECTS
+        - HIDE_DYE
+        - HIDE_ARMOR_TRIM
+        Unbreakable: true
+        PublicBukkitValues: |-
+          {
+              "itemtag:effects_list": "FAST_DIGGING,2,false,true,true"
+          }
+  ch2:
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3700
+      type: PLAYER_HEAD
+      meta:
+        ==: ItemMeta
+        meta-type: SKULL
+        display-name: '{"text":"","extra":[{"text":"C","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"yellow","bold":true},{"text":"h","italic":false,"color":"white","bold":true},{"text":"i","italic":false,"color":"yellow","bold":true},{"text":"c","italic":false,"color":"white","bold":true},{"text":"k","italic":false,"color":"yellow","bold":true},{"text":"e","italic":false,"color":"white","bold":true},{"text":"n
+          ","italic":false,"color":"yellow","bold":true},{"text":"M","italic":false,"color":"yellow","bold":true},{"text":"a","italic":false,"color":"white","bold":true},{"text":"s","italic":false,"color":"yellow","bold":true},{"text":"k","italic":false,"color":"white","bold":true}]}'
+        lore:
+        - '""'
+        - '{"text":"","extra":[{"text":"Receive permanent ","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"gray","bold":false},{"text":"Speed
+          III","italic":false,"color":"white"},{"text":".","italic":false,"color":"gray"}]}'
+        - '""'
+        - '{"text":"","extra":[{"text":"Full Set Bonus: Chicken Set","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"gold","bold":false}]}'
+        - '{"text":"","extra":[{"text":"Receive ","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"gray","bold":false},{"text":"☁
+          Slow falling ","italic":false,"color":"white"},{"text":"by ","italic":false,"color":"gray"},{"text":"+75%","italic":false,"color":"green"},{"text":".","italic":false,"color":"gray"}]}'
+        attribute-modifiers:
+          GENERIC_ARMOR:
+          - ==: org.bukkit.attribute.AttributeModifier
+            amount: 3.0
+            name: GENERIC_ARMOR
+            uuid: f3c2f102-86a3-4090-b5ef-1defb4bf5575
+            operation: 0
+          GENERIC_KNOCKBACK_RESISTANCE:
+          - ==: org.bukkit.attribute.AttributeModifier
+            amount: 1.0
+            name: GENERIC_KNOCKBACK_RESISTANCE
+            uuid: 1060d29f-c91c-4c2f-958a-3b30a8cd78f3
+            operation: 0
+        ItemFlags:
+        - HIDE_ENCHANTS
+        - HIDE_ATTRIBUTES
+        - HIDE_UNBREAKABLE
+        - HIDE_DESTROYS
+        - HIDE_PLACED_ON
+        - HIDE_POTION_EFFECTS
+        - HIDE_DYE
+        - HIDE_ARMOR_TRIM
+        Unbreakable: true
+        PublicBukkitValues: |-
+          {
+              "headsplus:storage": {
+                  "headsplus:mask_identifier": "chicken"
+              },
+              "itemtag:effects_list": "SPEED,2,false,true,true;SLOW_FALLING,2,false,true,true"
+          }
+        skull-owner:
+          ==: PlayerProfile
+          uniqueId: 46f9834b-abbd-37ee-8018-da982325d45a
+          name: HPXHead
+          properties:
+          - name: textures
+            value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHBzOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzdmMzdkNTI0YzNlZWQxNzFjZTE0OTg4N2VhMWRlZTRlZDM5OTkwNDcyN2Q1MjE4NjU2ODhlY2UzYmFjNzVlIn19fQ==
+  ch3:
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3700
+      type: LEATHER_CHESTPLATE
+      meta:
+        ==: ItemMeta
+        meta-type: COLORABLE_ARMOR
+        display-name: '{"text":"","extra":[{"text":"C","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"yellow","bold":true},{"text":"h","italic":false,"color":"white","bold":true},{"text":"i","italic":false,"color":"yellow","bold":true},{"text":"c","italic":false,"color":"white","bold":true},{"text":"k","italic":false,"color":"yellow","bold":true},{"text":"e","italic":false,"color":"white","bold":true},{"text":"n
+          ","italic":false,"color":"yellow","bold":true},{"text":"C","italic":false,"color":"yellow","bold":true},{"text":"h","italic":false,"color":"white","bold":true},{"text":"e","italic":false,"color":"yellow","bold":true},{"text":"s","italic":false,"color":"white","bold":true},{"text":"t","italic":false,"color":"yellow","bold":true},{"text":"p","italic":false,"color":"white","bold":true},{"text":"l","italic":false,"color":"yellow","bold":true},{"text":"a","italic":false,"color":"white","bold":true},{"text":"t","italic":false,"color":"yellow","bold":true},{"text":"e","italic":false,"color":"white","bold":true}]}'
+        lore:
+        - '""'
+        - '{"text":"","extra":[{"text":"Protection IV, Unbreaking III","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"blue","bold":false}]}'
+        - '""'
+        - '{"text":"","extra":[{"text":"Full Set Bonus: Chicken Set","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"gold","bold":false}]}'
+        - '{"text":"","extra":[{"text":"Receive ","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"gray","bold":false},{"text":"☁
+          Slow falling ","italic":false,"color":"white"},{"text":"by ","italic":false,"color":"gray"},{"text":"+75%","italic":false,"color":"green"},{"text":".","italic":false,"color":"gray"}]}'
+        enchants:
+          PROTECTION_ENVIRONMENTAL: 4
+        attribute-modifiers:
+          GENERIC_ARMOR:
+          - ==: org.bukkit.attribute.AttributeModifier
+            amount: 8.0
+            name: GENERIC_ARMOR
+            uuid: 1d7491ed-1eeb-4332-a81c-a495b80fd2f0
+            operation: 0
+          GENERIC_KNOCKBACK_RESISTANCE:
+          - ==: org.bukkit.attribute.AttributeModifier
+            amount: 1.0
+            name: GENERIC_KNOCKBACK_RESISTANCE
+            uuid: eb14280c-63a2-4106-9eae-cf7ac30f6d6d
+            operation: 0
+        ItemFlags:
+        - HIDE_ENCHANTS
+        - HIDE_ATTRIBUTES
+        - HIDE_UNBREAKABLE
+        - HIDE_DESTROYS
+        - HIDE_PLACED_ON
+        - HIDE_POTION_EFFECTS
+        - HIDE_DYE
+        - HIDE_ARMOR_TRIM
+        Unbreakable: true
+        color:
+          ==: Color
+          ALPHA: 255
+          RED: 249
+          BLUE: 254
+          GREEN: 255
+  ch4:
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3700
+      type: LEATHER_LEGGINGS
+      meta:
+        ==: ItemMeta
+        meta-type: COLORABLE_ARMOR
+        display-name: '{"text":"","extra":[{"text":"C","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"yellow","bold":true},{"text":"h","italic":false,"color":"white","bold":true},{"text":"i","italic":false,"color":"yellow","bold":true},{"text":"c","italic":false,"color":"white","bold":true},{"text":"k","italic":false,"color":"yellow","bold":true},{"text":"e","italic":false,"color":"white","bold":true},{"text":"n
+          ","italic":false,"color":"yellow","bold":true},{"text":"L","italic":false,"color":"yellow","bold":true},{"text":"e","italic":false,"color":"white","bold":true},{"text":"g","italic":false,"color":"yellow","bold":true},{"text":"g","italic":false,"color":"white","bold":true},{"text":"i","italic":false,"color":"yellow","bold":true},{"text":"n","italic":false,"color":"white","bold":true},{"text":"g","italic":false,"color":"yellow","bold":true},{"text":"s","italic":false,"color":"white","bold":true}]}'
+        lore:
+        - '""'
+        - '{"text":"","extra":[{"text":"Protection IV, Unbreaking III","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"blue","bold":false}]}'
+        - '""'
+        - '{"text":"","extra":[{"text":"Full Set Bonus: Chicken Set","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"gold","bold":false}]}'
+        - '{"text":"","extra":[{"text":"Receive ","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"gray","bold":false},{"text":"☁
+          Slow falling ","italic":false,"color":"white"},{"text":"by ","italic":false,"color":"gray"},{"text":"+75%","italic":false,"color":"green"},{"text":".","italic":false,"color":"gray"}]}'
+        enchants:
+          PROTECTION_ENVIRONMENTAL: 4
+        attribute-modifiers:
+          GENERIC_ARMOR:
+          - ==: org.bukkit.attribute.AttributeModifier
+            amount: 6.0
+            name: GENERIC_ARMOR
+            uuid: 8b649e42-18bc-4db1-ac4e-cbfb9c0fa932
+            operation: 0
+          GENERIC_KNOCKBACK_RESISTANCE:
+          - ==: org.bukkit.attribute.AttributeModifier
+            amount: 1.0
+            name: GENERIC_KNOCKBACK_RESISTANCE
+            uuid: b2661e48-8f3c-48ad-b070-9f04a82412e6
+            operation: 0
+        ItemFlags:
+        - HIDE_ENCHANTS
+        - HIDE_ATTRIBUTES
+        - HIDE_UNBREAKABLE
+        - HIDE_DESTROYS
+        - HIDE_PLACED_ON
+        - HIDE_POTION_EFFECTS
+        - HIDE_DYE
+        - HIDE_ARMOR_TRIM
+        Unbreakable: true
+        color:
+          ==: Color
+          ALPHA: 255
+          RED: 249
+          BLUE: 254
+          GREEN: 255
+  ch5:
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3700
+      type: LEATHER_BOOTS
+      meta:
+        ==: ItemMeta
+        meta-type: COLORABLE_ARMOR
+        display-name: '{"text":"","extra":[{"text":"C","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"yellow","bold":true},{"text":"h","italic":false,"color":"white","bold":true},{"text":"i","italic":false,"color":"yellow","bold":true},{"text":"c","italic":false,"color":"white","bold":true},{"text":"k","italic":false,"color":"yellow","bold":true},{"text":"e","italic":false,"color":"white","bold":true},{"text":"n
+          ","italic":false,"color":"yellow","bold":true},{"text":"B","italic":false,"color":"yellow","bold":true},{"text":"o","italic":false,"color":"white","bold":true},{"text":"o","italic":false,"color":"yellow","bold":true},{"text":"t","italic":false,"color":"white","bold":true},{"text":"s","italic":false,"color":"yellow","bold":true}]}'
+        lore:
+        - '""'
+        - '{"text":"","extra":[{"text":"Protection IV, Unbreaking III","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"blue","bold":false}]}'
+        - '""'
+        - '{"text":"","extra":[{"text":"Full Set Bonus: Chicken Set","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"gold","bold":false}]}'
+        - '{"text":"","extra":[{"text":"Receive ","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"gray","bold":false},{"text":"☁
+          Slow falling ","italic":false,"color":"white"},{"text":"by ","italic":false,"color":"gray"},{"text":"+75%","italic":false,"color":"green"},{"text":".","italic":false,"color":"gray"}]}'
+        enchants:
+          PROTECTION_ENVIRONMENTAL: 4
+        attribute-modifiers:
+          GENERIC_ARMOR:
+          - ==: org.bukkit.attribute.AttributeModifier
+            amount: 3.0
+            name: GENERIC_ARMOR
+            uuid: 7448892a-6e23-4136-97ce-a6aede2bfe07
+            operation: 0
+          GENERIC_KNOCKBACK_RESISTANCE:
+          - ==: org.bukkit.attribute.AttributeModifier
+            amount: 1.0
+            name: GENERIC_KNOCKBACK_RESISTANCE
+            uuid: c9b2e13a-3988-4eb8-8edd-5189e9a59f52
+            operation: 0
+        ItemFlags:
+        - HIDE_ENCHANTS
+        - HIDE_ATTRIBUTES
+        - HIDE_UNBREAKABLE
+        - HIDE_DESTROYS
+        - HIDE_PLACED_ON
+        - HIDE_POTION_EFFECTS
+        - HIDE_DYE
+        - HIDE_ARMOR_TRIM
+        Unbreakable: true
+        color:
+          ==: Color
+          ALPHA: 255
+          RED: 252
+          BLUE: 53
+          GREEN: 196
+  chkit:
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3700
+      type: WHITE_SHULKER_BOX
+      meta:
+        ==: ItemMeta
+        meta-type: TILE_ENTITY
+        display-name: '{"text":"","extra":[{"text":"C","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"yellow","bold":true},{"text":"h","italic":false,"color":"white","bold":true},{"text":"i","italic":false,"color":"yellow","bold":true},{"text":"c","italic":false,"color":"white","bold":true},{"text":"k","italic":false,"color":"yellow","bold":true},{"text":"e","italic":false,"color":"white","bold":true},{"text":"n
+          ","italic":false,"color":"yellow","bold":true},{"text":"S","italic":false,"color":"yellow","bold":true},{"text":"e","italic":false,"color":"white","bold":true},{"text":"t","italic":false,"color":"yellow","bold":true}]}'
+        internal: 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
+        blockMaterial: WHITE_SHULKER_BOX
+  ax1:
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3700
+      type: TRIDENT
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"text":"","extra":[{"text":"A","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"blue","bold":true},{"text":"q","italic":false,"color":"light_purple","bold":true},{"text":"u","italic":false,"color":"blue","bold":true},{"text":"a","italic":false,"color":"light_purple","bold":true},{"text":"t","italic":false,"color":"blue","bold":true},{"text":"i","italic":false,"color":"light_purple","bold":true},{"text":"c
+          ","italic":false,"color":"blue","bold":true},{"text":"R","italic":false,"color":"blue","bold":true},{"text":"e","italic":false,"color":"light_purple","bold":true},{"text":"a","italic":false,"color":"blue","bold":true},{"text":"v","italic":false,"color":"light_purple","bold":true},{"text":"e","italic":false,"color":"blue","bold":true},{"text":"r","italic":false,"color":"light_purple","bold":true}]}'
+        lore:
+        - '""'
+        - '{"text":"","extra":[{"text":"Tidal Slash","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"blue","bold":false}]}'
+        - '{"text":"","extra":[{"text":"Unleash a powerful wave that damages enemies
+          in its path.","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"gray","bold":false}]}'
+        - '""'
+        - '{"text":"","extra":[{"text":"Special Ability","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"gold","bold":false}]}'
+        - '{"text":"","extra":[{"text":"Hold this Reaver to gain ","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"gray","bold":false},{"text":"Dolphin''s
+          Grace","italic":false,"color":"aqua"},{"text":".","italic":false,"color":"gray"}]}'
+        enchants:
+          CHANNELING: 1
+          IMPALING: 5
+          LOYALTY: 3
+          RIPTIDE: 3
+          DURABILITY: 3
+        ItemFlags:
+        - HIDE_ENCHANTS
+        - HIDE_ATTRIBUTES
+        - HIDE_UNBREAKABLE
+        - HIDE_DESTROYS
+        - HIDE_PLACED_ON
+        - HIDE_POTION_EFFECTS
+        - HIDE_DYE
+        - HIDE_ARMOR_TRIM
+        Unbreakable: true
+        PublicBukkitValues: |-
+          {
+              "itemtag:effects_list": "DOLPHINS_GRACE,0,false,true,true"
+          }
+  ax2:
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3700
+      type: PLAYER_HEAD
+      meta:
+        ==: ItemMeta
+        meta-type: SKULL
+        display-name: '{"text":"","extra":[{"text":"A","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"blue","bold":true},{"text":"x","italic":false,"color":"light_purple","bold":true},{"text":"o","italic":false,"color":"blue","bold":true},{"text":"l","italic":false,"color":"light_purple","bold":true},{"text":"o","italic":false,"color":"blue","bold":true},{"text":"t","italic":false,"color":"light_purple","bold":true},{"text":"l
+          ","italic":false,"color":"blue","bold":true},{"text":"M","italic":false,"color":"blue","bold":true},{"text":"a","italic":false,"color":"light_purple","bold":true},{"text":"s","italic":false,"color":"blue","bold":true},{"text":"k","italic":false,"color":"light_purple","bold":true}]}'
+        lore:
+        - '""'
+        - '{"text":"","extra":[{"text":"Receive permanent ","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"gray","bold":false},{"text":"Regeneration
+          II","italic":false,"color":"red"},{"text":".","italic":false,"color":"gray"}]}'
+        - '""'
+        - '{"text":"","extra":[{"text":"Full Set Bonus: Axolotl Set","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"gold","bold":false}]}'
+        - '{"text":"","extra":[{"text":"Receive permanent ","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"gray","bold":false},{"text":"✴
+          Water breathing","italic":false,"color":"white"},{"text":".","italic":false,"color":"gray"}]}'
+        attribute-modifiers:
+          GENERIC_ARMOR:
+          - ==: org.bukkit.attribute.AttributeModifier
+            amount: 3.0
+            name: GENERIC_ARMOR
+            uuid: f539967d-d352-4d8a-9a20-a02581cc4ea5
+            operation: 0
+        ItemFlags:
+        - HIDE_ENCHANTS
+        - HIDE_ATTRIBUTES
+        - HIDE_UNBREAKABLE
+        - HIDE_DESTROYS
+        - HIDE_PLACED_ON
+        - HIDE_POTION_EFFECTS
+        - HIDE_DYE
+        - HIDE_ARMOR_TRIM
+        Unbreakable: true
+        PublicBukkitValues: |-
+          {
+              "headsplus:storage": {
+                  "headsplus:mask_identifier": "blue_axolotl"
+              },
+              "itemtag:effects_list": "WATER_BREATHING,0,false,true,true;REGENERATION,1,false,true,true"
+          }
+        skull-owner:
+          ==: PlayerProfile
+          uniqueId: 44a7519c-3b04-3a66-8200-c0706dbeb8d1
+          name: HPXHead
+          properties:
+          - name: textures
+            value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHBzOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2VlZjYzMDY1N2U0YTI3OWIwYjdlYTBmNjc5MDU5MjBhZjM2NWY5Yzg0Y2E5ZjM0YTMyYjUzMzQzZmY2Mjk5MTAifX19
+  ax3:
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3700
+      type: LEATHER_CHESTPLATE
+      meta:
+        ==: ItemMeta
+        meta-type: COLORABLE_ARMOR
+        display-name: '{"text":"","extra":[{"text":"A","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"blue","bold":true},{"text":"x","italic":false,"color":"light_purple","bold":true},{"text":"o","italic":false,"color":"blue","bold":true},{"text":"l","italic":false,"color":"light_purple","bold":true},{"text":"o","italic":false,"color":"blue","bold":true},{"text":"t","italic":false,"color":"light_purple","bold":true},{"text":"l
+          ","italic":false,"color":"blue","bold":true},{"text":"C","italic":false,"color":"blue","bold":true},{"text":"h","italic":false,"color":"light_purple","bold":true},{"text":"e","italic":false,"color":"blue","bold":true},{"text":"s","italic":false,"color":"light_purple","bold":true},{"text":"t","italic":false,"color":"blue","bold":true},{"text":"p","italic":false,"color":"light_purple","bold":true},{"text":"l","italic":false,"color":"blue","bold":true},{"text":"a","italic":false,"color":"light_purple","bold":true},{"text":"t","italic":false,"color":"blue","bold":true},{"text":"e","italic":false,"color":"light_purple","bold":true}]}'
+        lore:
+        - '""'
+        - '{"text":"","extra":[{"text":"Protection IV, Unbreaking III","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"blue","bold":false}]}'
+        - '""'
+        - '{"text":"","extra":[{"text":"Full Set Bonus: Axolotl Set","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"gold","bold":false}]}'
+        - '{"text":"","extra":[{"text":"Receive permanent ","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"gray","bold":false},{"text":"✴
+          Water breathing","italic":false,"color":"white"},{"text":".","italic":false,"color":"gray"}]}'
+        enchants:
+          PROTECTION_ENVIRONMENTAL: 4
+        attribute-modifiers:
+          GENERIC_ARMOR:
+          - ==: org.bukkit.attribute.AttributeModifier
+            amount: 8.0
+            name: GENERIC_ARMOR
+            uuid: 9eb11a9c-cb1d-43d3-adb5-860a57e5bb41
+            operation: 0
+          GENERIC_KNOCKBACK_RESISTANCE:
+          - ==: org.bukkit.attribute.AttributeModifier
+            amount: 1.0
+            name: GENERIC_KNOCKBACK_RESISTANCE
+            uuid: 31165de6-6bcc-40d8-84fa-d914caaf0360
+            operation: 0
+        ItemFlags:
+        - HIDE_ENCHANTS
+        - HIDE_ATTRIBUTES
+        - HIDE_UNBREAKABLE
+        - HIDE_DESTROYS
+        - HIDE_PLACED_ON
+        - HIDE_POTION_EFFECTS
+        - HIDE_DYE
+        - HIDE_ARMOR_TRIM
+        Unbreakable: true
+        color:
+          ==: Color
+          ALPHA: 255
+          RED: 154
+          BLUE: 212
+          GREEN: 141
+  ax4:
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3700
+      type: LEATHER_LEGGINGS
+      meta:
+        ==: ItemMeta
+        meta-type: COLORABLE_ARMOR
+        display-name: '{"text":"","extra":[{"text":"A","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"blue","bold":true},{"text":"x","italic":false,"color":"light_purple","bold":true},{"text":"o","italic":false,"color":"blue","bold":true},{"text":"l","italic":false,"color":"light_purple","bold":true},{"text":"o","italic":false,"color":"blue","bold":true},{"text":"t","italic":false,"color":"light_purple","bold":true},{"text":"l
+          ","italic":false,"color":"blue","bold":true},{"text":"L","italic":false,"color":"blue","bold":true},{"text":"e","italic":false,"color":"light_purple","bold":true},{"text":"g","italic":false,"color":"blue","bold":true},{"text":"g","italic":false,"color":"light_purple","bold":true},{"text":"i","italic":false,"color":"blue","bold":true},{"text":"n","italic":false,"color":"light_purple","bold":true},{"text":"g","italic":false,"color":"blue","bold":true},{"text":"s","italic":false,"color":"light_purple","bold":true}]}'
+        lore:
+        - '""'
+        - '{"text":"","extra":[{"text":"Protection IV, Unbreaking III","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"blue","bold":false}]}'
+        - '""'
+        - '{"text":"","extra":[{"text":"Full Set Bonus: Axolotl Set","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"gold","bold":false}]}'
+        - '{"text":"","extra":[{"text":"Receive permanent ","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"gray","bold":false},{"text":"✴
+          Water breathing","italic":false,"color":"white"},{"text":".","italic":false,"color":"gray"}]}'
+        enchants:
+          PROTECTION_ENVIRONMENTAL: 4
+        attribute-modifiers:
+          GENERIC_ARMOR:
+          - ==: org.bukkit.attribute.AttributeModifier
+            amount: 6.0
+            name: GENERIC_ARMOR
+            uuid: 3cf3cb4b-1fe1-4859-b81e-df65a6f07ee5
+            operation: 0
+          GENERIC_KNOCKBACK_RESISTANCE:
+          - ==: org.bukkit.attribute.AttributeModifier
+            amount: 1.0
+            name: GENERIC_KNOCKBACK_RESISTANCE
+            uuid: 2b5502cf-b1fd-47fc-8f94-cea9d87fab23
+            operation: 0
+        ItemFlags:
+        - HIDE_ENCHANTS
+        - HIDE_ATTRIBUTES
+        - HIDE_UNBREAKABLE
+        - HIDE_DESTROYS
+        - HIDE_PLACED_ON
+        - HIDE_POTION_EFFECTS
+        - HIDE_DYE
+        - HIDE_ARMOR_TRIM
+        Unbreakable: true
+        color:
+          ==: Color
+          ALPHA: 255
+          RED: 249
+          BLUE: 29
+          GREEN: 128
+  ax5:
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3700
+      type: LEATHER_BOOTS
+      meta:
+        ==: ItemMeta
+        meta-type: COLORABLE_ARMOR
+        display-name: '{"text":"","extra":[{"text":"A","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"blue","bold":true},{"text":"x","italic":false,"color":"light_purple","bold":true},{"text":"o","italic":false,"color":"blue","bold":true},{"text":"l","italic":false,"color":"light_purple","bold":true},{"text":"o","italic":false,"color":"blue","bold":true},{"text":"t","italic":false,"color":"light_purple","bold":true},{"text":"l
+          ","italic":false,"color":"blue","bold":true},{"text":"B","italic":false,"color":"blue","bold":true},{"text":"o","italic":false,"color":"light_purple","bold":true},{"text":"o","italic":false,"color":"blue","bold":true},{"text":"t","italic":false,"color":"light_purple","bold":true},{"text":"s","italic":false,"color":"blue","bold":true}]}'
+        lore:
+        - '""'
+        - '{"text":"","extra":[{"text":"Protection IV, Unbreaking III","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"blue","bold":false}]}'
+        - '""'
+        - '{"text":"","extra":[{"text":"Full Set Bonus: Axolotl Set","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"gold","bold":false}]}'
+        - '{"text":"","extra":[{"text":"Receive permanent ","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"gray","bold":false},{"text":"✴
+          Water breathing","italic":false,"color":"white"},{"text":".","italic":false,"color":"gray"}]}'
+        enchants:
+          PROTECTION_ENVIRONMENTAL: 4
+        attribute-modifiers:
+          GENERIC_ARMOR:
+          - ==: org.bukkit.attribute.AttributeModifier
+            amount: 3.0
+            name: GENERIC_ARMOR
+            uuid: 42708176-cd5e-4390-b044-d10e851eef63
+            operation: 0
+          GENERIC_KNOCKBACK_RESISTANCE:
+          - ==: org.bukkit.attribute.AttributeModifier
+            amount: 1.0
+            name: GENERIC_KNOCKBACK_RESISTANCE
+            uuid: ac5bd100-7d8e-455c-8c2a-28173cb56d88
+            operation: 0
+        ItemFlags:
+        - HIDE_ENCHANTS
+        - HIDE_ATTRIBUTES
+        - HIDE_UNBREAKABLE
+        - HIDE_DESTROYS
+        - HIDE_PLACED_ON
+        - HIDE_POTION_EFFECTS
+        - HIDE_DYE
+        - HIDE_ARMOR_TRIM
+        Unbreakable: true
+        color:
+          ==: Color
+          ALPHA: 255
+          RED: 154
+          BLUE: 212
+          GREEN: 141
+  axkit:
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3700
+      type: PURPLE_SHULKER_BOX
+      meta:
+        ==: ItemMeta
+        meta-type: TILE_ENTITY
+        display-name: '{"text":"","extra":[{"text":"A","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"blue","bold":true},{"text":"x","italic":false,"color":"light_purple","bold":true},{"text":"o","italic":false,"color":"blue","bold":true},{"text":"l","italic":false,"color":"light_purple","bold":true},{"text":"o","italic":false,"color":"blue","bold":true},{"text":"t","italic":false,"color":"light_purple","bold":true},{"text":"l
+          ","italic":false,"color":"blue","bold":true},{"text":"S","italic":false,"color":"blue","bold":true},{"text":"e","italic":false,"color":"light_purple","bold":true},{"text":"t","italic":false,"color":"blue","bold":true}]}'
+        internal: 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
+        blockMaterial: PURPLE_SHULKER_BOX
